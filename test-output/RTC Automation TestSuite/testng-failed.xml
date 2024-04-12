@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [RTC Automation TestSuite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="TSRTC App Test Cases (failed)">
+    <classes>
+      <class name="Com.TestCases.LoginPageTest">
+        <methods>
+          <include name="loginTest"/>
+          <include name="setup"/>
+          <include name="TearDown"/>
+        </methods>
+      </class> <!-- Com.TestCases.LoginPageTest -->
+    </classes>
+  </test> <!-- TSRTC App Test Cases (failed) -->
+</suite> <!-- Failed suite [RTC Automation TestSuite] -->

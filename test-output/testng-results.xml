@@ -1,0 +1,245 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="14" passed="14" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-04-12T19:47:13 IST" name="RTC Automation TestSuite" finished-at="2024-04-12T19:48:20 IST" duration-ms="66265">
+    <groups>
+    </groups>
+    <test started-at="2024-04-12T19:47:13 IST" name="TSRTC App Test Cases " finished-at="2024-04-12T19:48:20 IST" duration-ms="66265">
+      <class name="Com.TestCases.EnquiryPageTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:Com.TestCases.EnquiryPageTest@3bd82cf5]" started-at="2024-04-12T19:47:46 IST" name="setup" finished-at="2024-04-12T19:47:50 IST" duration-ms="4839" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="EnquiryPageTest(java.lang.String,java.lang.String)[pri:0, instance:Com.TestCases.EnquiryPageTest@3bd82cf5]" started-at="2024-04-12T19:47:50 IST" name="EnquiryPageTest" data-provider="EnquiryPageTestData" finished-at="2024-04-12T19:47:51 IST" duration-ms="253" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[ACHJ4567]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[91767.0]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- EnquiryPageTest -->
+        <test-method is-config="true" signature="Teardown()[pri:0, instance:Com.TestCases.EnquiryPageTest@3bd82cf5]" started-at="2024-04-12T19:47:51 IST" name="Teardown" finished-at="2024-04-12T19:47:51 IST" duration-ms="154" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Teardown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:Com.TestCases.EnquiryPageTest@3bd82cf5]" started-at="2024-04-12T19:47:51 IST" name="setup" finished-at="2024-04-12T19:47:55 IST" duration-ms="4397" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="EnquiryPageTest(java.lang.String,java.lang.String)[pri:0, instance:Com.TestCases.EnquiryPageTest@3bd82cf5]" started-at="2024-04-12T19:47:55 IST" name="EnquiryPageTest" data-provider="EnquiryPageTestData" finished-at="2024-04-12T19:47:56 IST" duration-ms="362" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[BCHJ4568]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[91768.0]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- EnquiryPageTest -->
+        <test-method is-config="true" signature="Teardown()[pri:0, instance:Com.TestCases.EnquiryPageTest@3bd82cf5]" started-at="2024-04-12T19:47:56 IST" name="Teardown" finished-at="2024-04-12T19:47:56 IST" duration-ms="134" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Teardown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:Com.TestCases.EnquiryPageTest@3bd82cf5]" started-at="2024-04-12T19:47:56 IST" name="setup" finished-at="2024-04-12T19:48:00 IST" duration-ms="4489" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="EnquiryPageTest(java.lang.String,java.lang.String)[pri:0, instance:Com.TestCases.EnquiryPageTest@3bd82cf5]" started-at="2024-04-12T19:48:00 IST" name="EnquiryPageTest" data-provider="EnquiryPageTestData" finished-at="2024-04-12T19:48:01 IST" duration-ms="255" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[CCHJ4569]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[91769.0]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- EnquiryPageTest -->
+        <test-method is-config="true" signature="Teardown()[pri:0, instance:Com.TestCases.EnquiryPageTest@3bd82cf5]" started-at="2024-04-12T19:48:01 IST" name="Teardown" finished-at="2024-04-12T19:48:01 IST" duration-ms="139" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Teardown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:Com.TestCases.EnquiryPageTest@3bd82cf5]" started-at="2024-04-12T19:48:01 IST" name="setup" finished-at="2024-04-12T19:48:05 IST" duration-ms="4617" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="EnquiryPageTest(java.lang.String,java.lang.String)[pri:0, instance:Com.TestCases.EnquiryPageTest@3bd82cf5]" started-at="2024-04-12T19:48:05 IST" name="EnquiryPageTest" data-provider="EnquiryPageTestData" finished-at="2024-04-12T19:48:06 IST" duration-ms="262" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[DCHJ4570]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[91770.0]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- EnquiryPageTest -->
+        <test-method is-config="true" signature="Teardown()[pri:0, instance:Com.TestCases.EnquiryPageTest@3bd82cf5]" started-at="2024-04-12T19:48:06 IST" name="Teardown" finished-at="2024-04-12T19:48:06 IST" duration-ms="127" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Teardown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:Com.TestCases.EnquiryPageTest@3bd82cf5]" started-at="2024-04-12T19:48:06 IST" name="setup" finished-at="2024-04-12T19:48:10 IST" duration-ms="4453" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="EnquiryPageTest(java.lang.String,java.lang.String)[pri:0, instance:Com.TestCases.EnquiryPageTest@3bd82cf5]" started-at="2024-04-12T19:48:10 IST" name="EnquiryPageTest" data-provider="EnquiryPageTestData" finished-at="2024-04-12T19:48:10 IST" duration-ms="251" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[ECHJ4571]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[91771.0]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- EnquiryPageTest -->
+        <test-method is-config="true" signature="Teardown()[pri:0, instance:Com.TestCases.EnquiryPageTest@3bd82cf5]" started-at="2024-04-12T19:48:10 IST" name="Teardown" finished-at="2024-04-12T19:48:10 IST" duration-ms="122" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Teardown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:Com.TestCases.EnquiryPageTest@3bd82cf5]" started-at="2024-04-12T19:48:10 IST" name="setup" finished-at="2024-04-12T19:48:15 IST" duration-ms="4298" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="EnquiryPageTitleTest()[pri:1, instance:Com.TestCases.EnquiryPageTest@3bd82cf5]" started-at="2024-04-12T19:48:15 IST" name="EnquiryPageTitleTest" finished-at="2024-04-12T19:48:15 IST" duration-ms="11" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- EnquiryPageTitleTest -->
+        <test-method is-config="true" signature="Teardown()[pri:0, instance:Com.TestCases.EnquiryPageTest@3bd82cf5]" started-at="2024-04-12T19:48:15 IST" name="Teardown" finished-at="2024-04-12T19:48:15 IST" duration-ms="123" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Teardown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:Com.TestCases.EnquiryPageTest@3bd82cf5]" started-at="2024-04-12T19:48:15 IST" name="setup" finished-at="2024-04-12T19:48:19 IST" duration-ms="4516" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="EnquiryPageLogo()[pri:2, instance:Com.TestCases.EnquiryPageTest@3bd82cf5]" started-at="2024-04-12T19:48:19 IST" name="EnquiryPageLogo" finished-at="2024-04-12T19:48:19 IST" duration-ms="49" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- EnquiryPageLogo -->
+        <test-method is-config="true" signature="Teardown()[pri:0, instance:Com.TestCases.EnquiryPageTest@3bd82cf5]" started-at="2024-04-12T19:48:19 IST" name="Teardown" finished-at="2024-04-12T19:48:20 IST" duration-ms="160" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Teardown -->
+      </class> <!-- Com.TestCases.EnquiryPageTest -->
+      <class name="Com.TestCases.BookingPageTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:Com.TestCases.BookingPageTest@fa4c865]" started-at="2024-04-12T19:47:29 IST" name="setup" finished-at="2024-04-12T19:47:32 IST" duration-ms="3606" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="VerifyBookingTitle()[pri:1, instance:Com.TestCases.BookingPageTest@fa4c865]" started-at="2024-04-12T19:47:32 IST" name="VerifyBookingTitle" finished-at="2024-04-12T19:47:32 IST" duration-ms="12" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyBookingTitle -->
+        <test-method is-config="true" signature="TearDown()[pri:0, instance:Com.TestCases.BookingPageTest@fa4c865]" started-at="2024-04-12T19:47:32 IST" name="TearDown" finished-at="2024-04-12T19:47:33 IST" duration-ms="159" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TearDown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:Com.TestCases.BookingPageTest@fa4c865]" started-at="2024-04-12T19:47:33 IST" name="setup" finished-at="2024-04-12T19:47:36 IST" duration-ms="3732" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="VerifyLabelName()[pri:2, instance:Com.TestCases.BookingPageTest@fa4c865]" started-at="2024-04-12T19:47:36 IST" name="VerifyLabelName" finished-at="2024-04-12T19:47:36 IST" duration-ms="35" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyLabelName -->
+        <test-method is-config="true" signature="TearDown()[pri:0, instance:Com.TestCases.BookingPageTest@fa4c865]" started-at="2024-04-12T19:47:36 IST" name="TearDown" finished-at="2024-04-12T19:47:36 IST" duration-ms="156" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TearDown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:Com.TestCases.BookingPageTest@fa4c865]" started-at="2024-04-12T19:47:36 IST" name="setup" finished-at="2024-04-12T19:47:40 IST" duration-ms="3557" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="BookingTestClick()[pri:3, instance:Com.TestCases.BookingPageTest@fa4c865]" started-at="2024-04-12T19:47:40 IST" name="BookingTestClick" finished-at="2024-04-12T19:47:40 IST" duration-ms="84" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BookingTestClick -->
+        <test-method is-config="true" signature="TearDown()[pri:0, instance:Com.TestCases.BookingPageTest@fa4c865]" started-at="2024-04-12T19:47:40 IST" name="TearDown" finished-at="2024-04-12T19:47:40 IST" duration-ms="136" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TearDown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:Com.TestCases.BookingPageTest@fa4c865]" started-at="2024-04-12T19:47:40 IST" name="setup" finished-at="2024-04-12T19:47:44 IST" duration-ms="3634" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="EnquiryPageTest()[pri:4, instance:Com.TestCases.BookingPageTest@fa4c865]" started-at="2024-04-12T19:47:44 IST" name="EnquiryPageTest" finished-at="2024-04-12T19:47:45 IST" duration-ms="720" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- EnquiryPageTest -->
+        <test-method is-config="true" signature="TearDown()[pri:0, instance:Com.TestCases.BookingPageTest@fa4c865]" started-at="2024-04-12T19:47:45 IST" name="TearDown" finished-at="2024-04-12T19:47:45 IST" duration-ms="155" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TearDown -->
+      </class> <!-- Com.TestCases.BookingPageTest -->
+      <class name="Com.TestCases.LoginPageTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:Com.TestCases.LoginPageTest@385c9627]" started-at="2024-04-12T19:47:13 IST" name="setup" finished-at="2024-04-12T19:47:20 IST" duration-ms="7045" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="TitleTest()[pri:1, instance:Com.TestCases.LoginPageTest@385c9627]" started-at="2024-04-12T19:47:20 IST" name="TitleTest" finished-at="2024-04-12T19:47:20 IST" duration-ms="25" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TitleTest -->
+        <test-method is-config="true" signature="TearDown()[pri:0, instance:Com.TestCases.LoginPageTest@385c9627]" started-at="2024-04-12T19:47:20 IST" name="TearDown" finished-at="2024-04-12T19:47:21 IST" duration-ms="161" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TearDown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:Com.TestCases.LoginPageTest@385c9627]" started-at="2024-04-12T19:47:21 IST" name="setup" finished-at="2024-04-12T19:47:24 IST" duration-ms="3602" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="LogoTest()[pri:2, instance:Com.TestCases.LoginPageTest@385c9627]" started-at="2024-04-12T19:47:24 IST" name="LogoTest" finished-at="2024-04-12T19:47:24 IST" duration-ms="77" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LogoTest -->
+        <test-method is-config="true" signature="TearDown()[pri:0, instance:Com.TestCases.LoginPageTest@385c9627]" started-at="2024-04-12T19:47:24 IST" name="TearDown" finished-at="2024-04-12T19:47:24 IST" duration-ms="144" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TearDown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:Com.TestCases.LoginPageTest@385c9627]" started-at="2024-04-12T19:47:24 IST" name="setup" finished-at="2024-04-12T19:47:27 IST" duration-ms="2908" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="loginTest()[pri:3, instance:Com.TestCases.LoginPageTest@385c9627]" started-at="2024-04-12T19:47:27 IST" name="loginTest" finished-at="2024-04-12T19:47:29 IST" duration-ms="1228" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTest -->
+        <test-method is-config="true" signature="TearDown()[pri:0, instance:Com.TestCases.LoginPageTest@385c9627]" started-at="2024-04-12T19:47:29 IST" name="TearDown" finished-at="2024-04-12T19:47:29 IST" duration-ms="164" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TearDown -->
+      </class> <!-- Com.TestCases.LoginPageTest -->
+    </test> <!-- TSRTC App Test Cases  -->
+  </suite> <!-- RTC Automation TestSuite -->
+</testng-results>

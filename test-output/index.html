@@ -1,0 +1,638 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports1.css" rel="stylesheet" id="ultra" />
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" id="retro" disabled="false"/>
+    <script type="text/javascript" src="jquery-3.6.0.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <button id="button" class="button">Switch Retro Theme</button> <!-- button -->
+      <br/>
+      <span class="top-banner-font-1">1 suite</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" title="Collapse/expand all the suites" class="collapse-all-link">
+          <img src="collapseall.gif" class="collapse-all-icon">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" panel-name="suite-RTC_Automation_TestSuite" class="navigator-link">
+              <span class="suite-name border-passed">RTC Automation TestSuite</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" panel-name="test-xml-RTC_Automation_TestSuite" class="navigator-link ">
+                    <span>C:\Users\vishn\eclipse-workspace\TSRTCBookingTest\src\main\resource\testng.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="testlist-RTC_Automation_TestSuite" class="navigator-link ">
+                    <span class="test-stats">1 test</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="group-RTC_Automation_TestSuite" class="navigator-link ">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="times-RTC_Automation_TestSuite" class="navigator-link ">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="reporter-RTC_Automation_TestSuite" class="navigator-link ">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="ignored-methods-RTC_Automation_TestSuite" class="navigator-link ">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="chronological-RTC_Automation_TestSuite" class="navigator-link ">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">14 methods,   14 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-RTC_Automation_TestSuite" class="hide-methods passed suite-RTC_Automation_TestSuite"> (hide)</a> <!-- hide-methods passed suite-RTC_Automation_TestSuite -->
+                      <a href="#" panel-name="suite-RTC_Automation_TestSuite" class="show-methods passed suite-RTC_Automation_TestSuite"> (show)</a> <!-- show-methods passed suite-RTC_Automation_TestSuite -->
+                    </span>
+                    <div class="method-list-content passed suite-RTC_Automation_TestSuite">
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-RTC_Automation_TestSuite" title="Com.TestCases.BookingPageTest" class="method navigator-link" hash-for-method="BookingTestClick">BookingTestClick</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-RTC_Automation_TestSuite" title="Com.TestCases.EnquiryPageTest" class="method navigator-link" hash-for-method="EnquiryPageLogo">EnquiryPageLogo</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-RTC_Automation_TestSuite" title="Com.TestCases.BookingPageTest" class="method navigator-link" hash-for-method="EnquiryPageTest">EnquiryPageTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-RTC_Automation_TestSuite" title="Com.TestCases.EnquiryPageTest" class="method navigator-link" hash-for-method="EnquiryPageTest(DCHJ4570, 91770.0)">EnquiryPageTest(DCHJ4570, 91770.0)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-RTC_Automation_TestSuite" title="Com.TestCases.EnquiryPageTest" class="method navigator-link" hash-for-method="EnquiryPageTest(ECHJ4571, 91771.0)">EnquiryPageTest(ECHJ4571, 91771.0)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-RTC_Automation_TestSuite" title="Com.TestCases.EnquiryPageTest" class="method navigator-link" hash-for-method="EnquiryPageTest(ACHJ4567, 91767.0)">EnquiryPageTest(ACHJ4567, 91767.0)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-RTC_Automation_TestSuite" title="Com.TestCases.EnquiryPageTest" class="method navigator-link" hash-for-method="EnquiryPageTest(CCHJ4569, 91769.0)">EnquiryPageTest(CCHJ4569, 91769.0)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-RTC_Automation_TestSuite" title="Com.TestCases.EnquiryPageTest" class="method navigator-link" hash-for-method="EnquiryPageTest(BCHJ4568, 91768.0)">EnquiryPageTest(BCHJ4568, 91768.0)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-RTC_Automation_TestSuite" title="Com.TestCases.EnquiryPageTest" class="method navigator-link" hash-for-method="EnquiryPageTitleTest">EnquiryPageTitleTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-RTC_Automation_TestSuite" title="Com.TestCases.LoginPageTest" class="method navigator-link" hash-for-method="LogoTest">LogoTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-RTC_Automation_TestSuite" title="Com.TestCases.LoginPageTest" class="method navigator-link" hash-for-method="TitleTest">TitleTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-RTC_Automation_TestSuite" title="Com.TestCases.BookingPageTest" class="method navigator-link" hash-for-method="VerifyBookingTitle">VerifyBookingTitle</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-RTC_Automation_TestSuite" title="Com.TestCases.BookingPageTest" class="method navigator-link" hash-for-method="VerifyLabelName">VerifyLabelName</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-RTC_Automation_TestSuite" title="Com.TestCases.LoginPageTest" class="method navigator-link" hash-for-method="loginTest">loginTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-RTC_Automation_TestSuite -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-RTC_Automation_TestSuite" class="panel RTC_Automation_TestSuite">
+          <div class="suite-RTC_Automation_TestSuite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">Com.TestCases.EnquiryPageTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="EnquiryPageLogo">
+                  </a> <!-- EnquiryPageLogo -->
+                  <span class="method-name">EnquiryPageLogo</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="EnquiryPageTest(DCHJ4570, 91770.0)">
+                  </a> <!-- EnquiryPageTest(DCHJ4570, 91770.0) -->
+                  <span class="method-name">EnquiryPageTest</span>
+                  <span class="parameters">(DCHJ4570,91770.0)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="EnquiryPageTest(ECHJ4571, 91771.0)">
+                  </a> <!-- EnquiryPageTest(ECHJ4571, 91771.0) -->
+                  <span class="method-name">EnquiryPageTest</span>
+                  <span class="parameters">(ECHJ4571,91771.0)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="EnquiryPageTest(ACHJ4567, 91767.0)">
+                  </a> <!-- EnquiryPageTest(ACHJ4567, 91767.0) -->
+                  <span class="method-name">EnquiryPageTest</span>
+                  <span class="parameters">(ACHJ4567,91767.0)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="EnquiryPageTest(CCHJ4569, 91769.0)">
+                  </a> <!-- EnquiryPageTest(CCHJ4569, 91769.0) -->
+                  <span class="method-name">EnquiryPageTest</span>
+                  <span class="parameters">(CCHJ4569,91769.0)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="EnquiryPageTest(BCHJ4568, 91768.0)">
+                  </a> <!-- EnquiryPageTest(BCHJ4568, 91768.0) -->
+                  <span class="method-name">EnquiryPageTest</span>
+                  <span class="parameters">(BCHJ4568,91768.0)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="EnquiryPageTitleTest">
+                  </a> <!-- EnquiryPageTitleTest -->
+                  <span class="method-name">EnquiryPageTitleTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-RTC_Automation_TestSuite-class-passed -->
+          <div class="suite-RTC_Automation_TestSuite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">Com.TestCases.LoginPageTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="LogoTest">
+                  </a> <!-- LogoTest -->
+                  <span class="method-name">LogoTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="TitleTest">
+                  </a> <!-- TitleTest -->
+                  <span class="method-name">TitleTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="loginTest">
+                  </a> <!-- loginTest -->
+                  <span class="method-name">loginTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-RTC_Automation_TestSuite-class-passed -->
+          <div class="suite-RTC_Automation_TestSuite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">Com.TestCases.BookingPageTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="BookingTestClick">
+                  </a> <!-- BookingTestClick -->
+                  <span class="method-name">BookingTestClick</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="EnquiryPageTest">
+                  </a> <!-- EnquiryPageTest -->
+                  <span class="method-name">EnquiryPageTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="VerifyBookingTitle">
+                  </a> <!-- VerifyBookingTitle -->
+                  <span class="method-name">VerifyBookingTitle</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="VerifyLabelName">
+                  </a> <!-- VerifyLabelName -->
+                  <span class="method-name">VerifyLabelName</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-RTC_Automation_TestSuite-class-passed -->
+        </div> <!-- panel RTC_Automation_TestSuite -->
+        <div panel-name="test-xml-RTC_Automation_TestSuite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">C:\Users\vishn\eclipse-workspace\TSRTCBookingTest\src\main\resource\testng.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;https://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite name=&quot;RTC Automation TestSuite&quot; guice-stage=&quot;DEVELOPMENT&quot;&gt;
+  &lt;listeners&gt;
+    &lt;listener class-name=&quot;Com.TestUtil.ReportListener&quot;/&gt;
+  &lt;/listeners&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;TSRTC App Test Cases &quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;Com.TestCases.LoginPageTest&quot;/&gt;
+      &lt;class name=&quot;Com.TestCases.BookingPageTest&quot;/&gt;
+      &lt;class name=&quot;Com.TestCases.EnquiryPageTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- TSRTC App Test Cases  --&gt;
+&lt;/suite&gt; &lt;!-- RTC Automation TestSuite --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-RTC_Automation_TestSuite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for RTC Automation TestSuite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">TSRTC App Test Cases  (3 classes)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-RTC_Automation_TestSuite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for RTC Automation TestSuite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-RTC_Automation_TestSuite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for RTC Automation TestSuite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_RTC_Automation_TestSuite');
+function tableData_RTC_Automation_TestSuite() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(14);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'loginTest')
+data.setCell(0, 2, 'Com.TestCases.LoginPageTest')
+data.setCell(0, 3, 1228);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'EnquiryPageTest')
+data.setCell(1, 2, 'Com.TestCases.BookingPageTest')
+data.setCell(1, 3, 720);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'EnquiryPageTest')
+data.setCell(2, 2, 'Com.TestCases.EnquiryPageTest')
+data.setCell(2, 3, 362);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'EnquiryPageTest')
+data.setCell(3, 2, 'Com.TestCases.EnquiryPageTest')
+data.setCell(3, 3, 262);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'EnquiryPageTest')
+data.setCell(4, 2, 'Com.TestCases.EnquiryPageTest')
+data.setCell(4, 3, 255);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'EnquiryPageTest')
+data.setCell(5, 2, 'Com.TestCases.EnquiryPageTest')
+data.setCell(5, 3, 253);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'EnquiryPageTest')
+data.setCell(6, 2, 'Com.TestCases.EnquiryPageTest')
+data.setCell(6, 3, 251);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'BookingTestClick')
+data.setCell(7, 2, 'Com.TestCases.BookingPageTest')
+data.setCell(7, 3, 84);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'LogoTest')
+data.setCell(8, 2, 'Com.TestCases.LoginPageTest')
+data.setCell(8, 3, 77);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'EnquiryPageLogo')
+data.setCell(9, 2, 'Com.TestCases.EnquiryPageTest')
+data.setCell(9, 3, 49);
+data.setCell(10, 0, 10)
+data.setCell(10, 1, 'VerifyLabelName')
+data.setCell(10, 2, 'Com.TestCases.BookingPageTest')
+data.setCell(10, 3, 35);
+data.setCell(11, 0, 11)
+data.setCell(11, 1, 'TitleTest')
+data.setCell(11, 2, 'Com.TestCases.LoginPageTest')
+data.setCell(11, 3, 25);
+data.setCell(12, 0, 12)
+data.setCell(12, 1, 'VerifyBookingTitle')
+data.setCell(12, 2, 'Com.TestCases.BookingPageTest')
+data.setCell(12, 3, 12);
+data.setCell(13, 0, 13)
+data.setCell(13, 1, 'EnquiryPageTitleTest')
+data.setCell(13, 2, 'Com.TestCases.EnquiryPageTest')
+data.setCell(13, 3, 11);
+window.suiteTableData['RTC_Automation_TestSuite']= { tableData: data, tableDiv: 'times-div-RTC_Automation_TestSuite'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 3 seconds</span>
+              <div id="times-div-RTC_Automation_TestSuite">
+              </div> <!-- times-div-RTC_Automation_TestSuite -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-RTC_Automation_TestSuite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for RTC Automation TestSuite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-RTC_Automation_TestSuite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-RTC_Automation_TestSuite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">Com.TestCases.LoginPageTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setup</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">TitleTest</span>
+                <span class="method-start">7046 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">TearDown</span>
+                <span class="method-start">7073 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setup</span>
+                <span class="method-start">7237 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">LogoTest</span>
+                <span class="method-start">10839 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">TearDown</span>
+                <span class="method-start">10918 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setup</span>
+                <span class="method-start">11062 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">loginTest</span>
+                <span class="method-start">13970 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">TearDown</span>
+                <span class="method-start">15198 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">Com.TestCases.BookingPageTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setup</span>
+                <span class="method-start">15362 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">VerifyBookingTitle</span>
+                <span class="method-start">18968 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">TearDown</span>
+                <span class="method-start">18982 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setup</span>
+                <span class="method-start">19142 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">VerifyLabelName</span>
+                <span class="method-start">22875 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">TearDown</span>
+                <span class="method-start">22912 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setup</span>
+                <span class="method-start">23070 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">BookingTestClick</span>
+                <span class="method-start">26627 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">TearDown</span>
+                <span class="method-start">26714 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setup</span>
+                <span class="method-start">26851 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">EnquiryPageTest</span>
+                <span class="method-start">30485 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">TearDown</span>
+                <span class="method-start">31206 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">Com.TestCases.EnquiryPageTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setup</span>
+                <span class="method-start">32211 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">EnquiryPageTest(ACHJ4567, 91767.0)</span>
+                <span class="method-start">37050 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">Teardown</span>
+                <span class="method-start">37304 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setup</span>
+                <span class="method-start">37458 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">EnquiryPageTest(BCHJ4568, 91768.0)</span>
+                <span class="method-start">41855 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">Teardown</span>
+                <span class="method-start">42218 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setup</span>
+                <span class="method-start">42352 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">EnquiryPageTest(CCHJ4569, 91769.0)</span>
+                <span class="method-start">46841 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">Teardown</span>
+                <span class="method-start">47098 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setup</span>
+                <span class="method-start">47237 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">EnquiryPageTest(DCHJ4570, 91770.0)</span>
+                <span class="method-start">51854 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">Teardown</span>
+                <span class="method-start">52116 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setup</span>
+                <span class="method-start">52243 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">EnquiryPageTest(ECHJ4571, 91771.0)</span>
+                <span class="method-start">56696 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">Teardown</span>
+                <span class="method-start">56947 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setup</span>
+                <span class="method-start">57069 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">EnquiryPageTitleTest</span>
+                <span class="method-start">61367 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">Teardown</span>
+                <span class="method-start">61379 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setup</span>
+                <span class="method-start">61503 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">EnquiryPageLogo</span>
+                <span class="method-start">66019 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">Teardown</span>
+                <span class="method-start">66069 ms</span>
+              </div> <!-- configuration-method after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+<script type="text/javascript" src="testng-reports2.js"></script>
+</html>
